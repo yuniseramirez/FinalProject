@@ -12,7 +12,7 @@ $("#movieSearcher").keyup(function(event){
 	if(valueSearch.length >3){
 		$.ajax({
 		type: "GET",
-		url:"http://www.omdbapi.com/?apikey=4cbed399",
+		url:"//www.omdbapi.com/?apikey=4cbed399",
 		data: { 
 		t: $("#movieSearcher").val()
 				},
